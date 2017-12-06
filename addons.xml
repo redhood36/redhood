@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.redhood" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo" version="1.0.0" provider-name="RHMKodi">
+	<extension point="xbmc.addon.repository" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+		    <info compressed="false">http://repo.vaders.tv/repo/addons.xml</info>
+		    <checksum>http://repo.vaders.tv/repo/addons.xml.md5</checksum>
+             <datadir zip="true">http://repo.vaders.tv/repo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teverz/teverz2/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teverz/teverz2/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teverz/teverz2/master/zips/</datadir>		
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/redhood36/redhood/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/redhood36/redhood/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/redhood36/redhood/master/</datadir>		
+		</dir>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from Redhood</summary>
+		<description>Download and install add-ons from Redhood addon repository.</description>
+		<disclaimer>Redhood</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.program.redhood" name="Redhood Wizard" version="0.1.7a" provider-name="Redhood Media">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Redhood Wizard</summary>
+    <description lang="en">Redhood Wizard allows you to get access to the latest Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.boombap" name="BoomBap" version="0.0.1" provider-name="Kratos">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kratos YouTube addon</summary>
+		<description lang="en">This is a working YouTube video addon that can be used to listen and remember the good ol days.</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>movies,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+<addon id="plugin.video.redhoodtv"
+       name="Redhood[COLOR red]TV[/COLOR]"
+       version="1.1"
+       provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Redhood TV</summary>
+    <language>en</language>
+    <description lang="en">Redhood TV Official Addon - Supplier of Great Quality and Stable Streams</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+</addons>
