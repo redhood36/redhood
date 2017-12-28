@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.redhood" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo" version="1.0.0" provider-name="RHMKodi">
+<addon id="repository.redhood" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo" version="1.0.1" provider-name="RHMKodi">
 	<extension point="xbmc.addon.repository" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -12,9 +12,9 @@
              <datadir zip="true">http://repo.vaders.tv/repo/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/teverz/teverz2/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/teverz/teverz2/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/teverz/teverz2/master/zips/</datadir>		
+			<info compressed="false">https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teverz/blamo/master/zips/</datadir>		
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/redhood36/redhood/master/addons.xml</info>
