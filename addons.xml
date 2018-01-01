@@ -86,12 +86,7 @@
      <platform>all</platform>
   </extension>
 </addon>
-<<<<<<< HEAD
 <addon id="plugin.video.prometheus" name="Prometheus Addon" version="1.2" provider-name="RHMkodi">
-=======
-
-<addon id="plugin.video.prometheus" name="Prometheus" version="1.2" provider-name="RHMkodi">
->>>>>>> origin/master
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
