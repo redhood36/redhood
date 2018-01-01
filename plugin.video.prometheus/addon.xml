@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-=======
->>>>>>> origin/master
 <addon id="plugin.video.prometheus" name="Prometheus Addon" version="1.2" provider-name="RHMkodi">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
