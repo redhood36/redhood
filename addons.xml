@@ -30,6 +30,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
 <addon id="plugin.program.redhood" name="[COLOR red]Redhood [COLOR white]Wizard[/COLOR]" version="2.0" provider-name="[B][I][COLOR red]Redhood[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -65,6 +66,7 @@
 		<video_preview></video_preview>
 	</extension>
 </addon>
+
 <addon id="plugin.video.redhoodtv"
        name="Redhood[COLOR red]TV[/COLOR]"
        version="1.1"
@@ -84,7 +86,12 @@
      <platform>all</platform>
   </extension>
 </addon>
+<<<<<<< HEAD
 <addon id="plugin.video.prometheus" name="Prometheus Addon" version="1.2" provider-name="RHMkodi">
+=======
+
+<addon id="plugin.video.prometheus" name="Prometheus" version="1.2" provider-name="RHMkodi">
+>>>>>>> origin/master
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
