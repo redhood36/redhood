@@ -47,7 +47,7 @@
 	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
-<addon id="plugin.video.boombap" name="BoomBap" version="0.0.1" provider-name="Kratos">
+<addon id="plugin.video.boombap" name="BoomBap" version="0.0.1" provider-name="RHMkodi">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
