@@ -52,7 +52,7 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Kratos YouTube addon</summary>
+		<summary lang="en">YouTube addon</summary>
 		<description lang="en">This is a working YouTube video addon that can be used to listen and remember the good ol days.</description>
 		<platform>all</platform>
 		<news></news>
