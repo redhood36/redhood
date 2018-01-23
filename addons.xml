@@ -63,7 +63,6 @@
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.iamabsolem" name="[COLORyellow]I am Absolem[/COLOR]" version="1.2" provider-name="Absolem">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
