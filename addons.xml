@@ -93,7 +93,6 @@
     </extension>
 </addon>
 
-<<<<<<< HEAD
 <addon id="plugin.video.doom" name="[COLORgreen]Dr. Doom[/COLOR]" version="1.1" provider-name="RHMkodi">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -124,3 +123,6 @@
 </addon>
 
 </addons>
+
+
+
