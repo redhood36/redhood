@@ -93,7 +93,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.doom" name="[COLORgreen]Dr. Doom[/COLOR]" version="1.1" provider-name="RHMkodi">
+<addon id="plugin.video.doom" name="[COLORgreen]Dr.Doom[/COLOR]" version="1.1" provider-name="RHMkodi">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
