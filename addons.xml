@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="repository.redhood" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo" version="1.0.2" provider-name="RHMKodi">
 	<extension point="xbmc.addon.repository" name="[COLOR red]R[/COLOR]edhood [COLOR red]R[/COLOR]epo">
 		<dir>
@@ -92,6 +93,7 @@
     </extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="plugin.video.doom" name="[COLORgreen]Dr. Doom[/COLOR]" version="1.1" provider-name="RHMkodi">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -123,4 +125,6 @@
 
 
 
+=======
+>>>>>>> 8f6920d38abec480c082481057e7acc02fa02c4b
 </addons>
