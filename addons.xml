@@ -228,7 +228,7 @@
 		</dir>
     </extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Install Add-ons from Cyborg Repo</summary>
+		<summary>Install Add-ons from Cyborg</summary>
 		<description>Download and install add-ons from Cyborg addon repository.</description>
 		<disclaimer>Cyborg</disclaimer>
 		<platform>all</platform>
